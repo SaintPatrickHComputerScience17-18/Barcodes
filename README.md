@@ -6,7 +6,7 @@ The goal of this project is to simplify the creation and sorting of barcodes and
   -  **adapter objects** to increase the reusability of our modules to accommodate other product indexing standards.
   -  **insertion sort** to selectively reorganize a list of barcodes by its relevant sub-code interpretations.
 
-[YouTube Link explaining a good deal of the text below.](http://coming.soon.html)
+[YouTube Link explaining a good deal of the text below.](https://youtu.be/HGD-rI4SoGM)
 ## ISBN-10
 
 This module will build a random ISBN.  The first 9 numbers signify information related to the book itself: publisher, author, title, etc.  The last digit however is a error checking digit to make sure the 9 digits were properly read by a machine.
