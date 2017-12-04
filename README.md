@@ -30,7 +30,7 @@ This module will build a semi-random ISBN.  The first 12 numbers signify informa
 
 Background Information [ISBN-13 EAN link](https://isbn-information.com/the-13-digit-isbn.html)
 
--  **sysCode**:  utilize the makeSysCode specified below
+-  **sysCode**:  utilize the makeSysCode specified below.
 -  **manCode**:  Import and utilize the Random() module to create the 5 digit unique ISBN.  Make sure it is stored as a String and not a number type.
 -  **proCode**:  Import and utilize the Random() module to create the 4 digit unique ISBN.  Make sure it is stored as a String and not a number type.
 -  **checkDigit**:  use the check function here to return the proper checkDigit.  Similarly, make sure the data is returned as a String type.
@@ -39,7 +39,7 @@ Background Information [ISBN-13 EAN link](https://isbn-information.com/the-13-di
 -  read():  This function with return the values of the ISBN code and checkDigit with a hyphen in between as a string.
 
 #### Private Instance Functions
--  **makeSysCode()**:  Pick a random number from 1 to 8 and write a series of conditional statements that return codes for your favorite countries.[system code choices...scroll down a little](http://www.barcodeisland.com/ean13.phtml)
+-  **makeSysCode()**:  Pick a random number from 1 to 8 and write a series of conditional statements that return codes for your favorite countries.  System codes are 3 digits, if you only see 2 then stick a 0 in front. For example 41 would be 041. [system code choices...scroll down a little](http://www.barcodeisland.com/ean13.phtml)
 -  **check()**:  This function performs the mathematical computation to verify the ISBN was correctly made.
 [3 minute demonstration](https://youtu.be/WstjjL5CPqk)
 
